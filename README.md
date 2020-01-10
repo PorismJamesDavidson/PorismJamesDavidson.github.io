@@ -31,7 +31,7 @@ Open Community work is testing data capture software, de-duplication of merged d
 
 The OpenReferral schema defines a structure for human services data. We *extend* the schema to support richer data where prior work indicates it is needed. We *constrain* the resultant schema by means of an *application profile* which says what fields are recommended for English use and what external vocabularies to reference.
 
-![Schema extension and constraint](https://github.com/esd-org-uk/human-services/blob/master/Resources/SchemaExtensionAndConstraint.png)
+![Schema extension and constraint](https://github.com/esd-org-uk/human-services/raw/master/Resources/SchemaExtensionAndConstraint.png)
 
 For the LGA/DCMS Loneliness project application profile, these resources describe the schema:
 
