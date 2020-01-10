@@ -78,6 +78,9 @@ See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amaz
 </script>  
 <div id="docs"></div>
 <script>  
-  $("#docs").val("Test123123123123123");
+  $(function() {
+      console.log( "ready!" );
+      $("#docs").val("Test123");
+  });
   
 </script>  
