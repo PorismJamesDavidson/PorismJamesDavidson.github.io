@@ -71,7 +71,7 @@ The API is freely available for reasonable use for public and private organisati
 
 See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amazonaws.com/) that illistrates some API calls and shows the structure of data found. The page source can be found [here](https://github.com/esd-org-uk/human-services/tree/master/Utilities/ApiDemoSite) and run from anywhere.
 
-<title>OpenCommunity Application Profile for Human Services Data</title><body><style>
+<html><title>OpenCommunity Application Profile for Human Services Data</title><body><style>
             table {
                 width:100%;
                 border-collapse: collapse;
@@ -221,3 +221,4 @@ See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amaz
 
 <tr><td>id</td><td>string</td><td>Extension for LGA</td><td>A unique identifier for the link taxonomy</td><td>-</td><td>True</td><td>True</td></tr><tr><td>link_type</td><td>string</td><td>Extension for LGA</td><td>The class that the taxonomy applies to</td><td><ul><li>organization</li><li>eligibility</li><li>cost_option</li><li>area</li></ul></td><td>True</td><td>False</td></tr><tr><td>link_id</td><td>string</td><td>Extension for LGA</td><td>The identifier of the class</td><td>-</td><td>True</td><td>False</td></tr><tr><td>taxonomy_id</td><td>string</td><td>Extension for LGA</td><td>The identifier of this classification from the taxonomy table.</td><td>-</td><td>True</td><td>False</td></tr></table>
 </body>
+</html>
