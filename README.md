@@ -73,4 +73,6 @@ See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amaz
 
 <!-- <iframe height=auto width=auto src='https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html'> -->
 
-<object data="https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html"></object>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous">  
+  
+</script>  
