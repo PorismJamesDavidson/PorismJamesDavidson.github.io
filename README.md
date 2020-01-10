@@ -82,7 +82,6 @@ See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amaz
       console.log( "ready!" );
       $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {
         $( "#docs" ).html( data );
-        alert( "Load was performed." );
       });
   });
   
