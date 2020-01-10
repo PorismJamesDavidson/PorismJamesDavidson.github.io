@@ -80,7 +80,7 @@ See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amaz
 <script>  
   $(function() {
       console.log( "ready!" );
-      $("#docs").val("Test123");
+      $("#docs").text("Test123");
   });
   
 </script>  
