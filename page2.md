@@ -1,2 +1,6 @@
-##Page 2
+---
+title: Title
+layout: default
+---
 
+##Page 2
