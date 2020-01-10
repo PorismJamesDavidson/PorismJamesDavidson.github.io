@@ -71,4 +71,6 @@ The API is freely available for reasonable use for public and private organisati
 
 See the [API query tool](http://service-directory-beta.s3-website-eu-west-1.amazonaws.com/) that illistrates some API calls and shows the structure of data found. The page source can be found [here](https://github.com/esd-org-uk/human-services/tree/master/Utilities/ApiDemoSite) and run from anywhere.
 
-<iframe height=auto width=auto src='https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html'>
+<!-- <iframe height=auto width=auto src='https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html'> -->
+
+<object data="https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html"></object>
