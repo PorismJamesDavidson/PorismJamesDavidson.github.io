@@ -19,7 +19,7 @@ By comparing the two application profiles we can test the viability of moving fa
 
 The Local Digital Declaration insists on “modular building blocks for the IT we rely on, and open standards to give a common structure to the data we create”. The human service standard is intended to support the modular approach illustrated below.
 
-![Consolidated data feeds queried by service finder applications](https://github.com/esd-org-uk/human-services/blob/master/Resources/ConsolidatedDataFeedsQueriedByServiceFinders.png)
+![Consolidated data feeds queried by service finder applications](https://raw.githubusercontent.com/esd-org-uk/human-services/master/Resources/ConsolidatedDataFeedsQueriedByServiceFinders.png)
 
 Data consumers query service data via an API (see below) from directories that output in a format compliant with the standard. Aggregators take data from compliant directories and merge it to provide more comprehensive data for consuming applications.
 
