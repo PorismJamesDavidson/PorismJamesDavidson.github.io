@@ -1,4 +1,6 @@
 ---
+title: Page2
+layout: page
 permalink: /page/
 ---
 
