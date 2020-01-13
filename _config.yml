@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Title
 url: https://porismjamesdavidson.github.io/
+github:
+  is_project_page: false
