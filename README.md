@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Human Services standard and API
 ## Summary
 
