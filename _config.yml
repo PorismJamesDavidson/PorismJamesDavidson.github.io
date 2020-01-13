@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 title: Title
 url: https://porismjamesdavidson.github.io/
 github:
-  is_project_page: false
+  repository_url: https://github.com/esd-org-uk/human-services/
