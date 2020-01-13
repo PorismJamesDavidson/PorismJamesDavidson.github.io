@@ -4,7 +4,7 @@ Title: Title
 
 <a href="/page/">Test</a>
 
-{% include_relative scr/README.md %}
+{% include_relative README.md %}
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous">  
   
 </script>  
