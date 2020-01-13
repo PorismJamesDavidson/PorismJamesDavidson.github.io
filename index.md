@@ -1,5 +1,6 @@
 ---
-Title: Title
+title: Title
+layout: default
 ---
 
 <a href="/page/">Test</a>
