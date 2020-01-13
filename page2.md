@@ -1,8 +1,6 @@
 ---
-layout: page
-title: "OpenCommunity"
-permalink: /page2/
+title: Title
+layout: default
 ---
-
 
 ##Page 2 is here

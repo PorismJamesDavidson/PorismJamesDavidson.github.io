@@ -1,9 +1,3 @@
----
-layout: page
-title: "OpenCommunity"
-permalink: //
----
-
 # Human Services standard and API
 ## Summary
 
