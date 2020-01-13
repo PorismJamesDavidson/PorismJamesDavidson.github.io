@@ -1,6 +1,6 @@
 ---
-title: Page2
 layout: default
+title: Home
 permalink: /page/
 ---
 
