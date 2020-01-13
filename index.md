@@ -11,7 +11,6 @@ layout: default
 <div id="docs"></div>
 <script>  
   $(function() {
-      $("#forkme_banner").remove();
       $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {
         $( "#docs" ).html( data );
       });      
