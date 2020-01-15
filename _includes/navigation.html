@@ -1,42 +1,9 @@
-<!--&lt;!&ndash; This finds the current page so it can be highlighted. &ndash;&gt;-->
-
-<!--{% for entry in site.data.navigation %}-->
-<!--{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}-->
-<!--{% if fullurl == page.url %}-->
-<!--{% assign current_page = fullurl %}-->
-<!--{% break %}-->
-<!--{% elsif page.url contains fullurl %}-->
-<!--{% assign current_page = fullurl %}-->
-<!--{% endif %}-->
-<!--{% endfor %}-->
-
-<!--&lt;!&ndash; Then we build the nav bar. &ndash;&gt;-->
-<!--<nav class="navbar navbar-expand-sm bg-light">-->
-<!--    <ul class="navbar-nav">-->
-<!--        {% for entry in site.data.navigation %}-->
-<!--        {% if entry.url == current_page %}-->
-<!--        {% assign current = ' class="current"' %}-->
-<!--        {% else %}-->
-<!--        &lt;!&ndash; We have to declare it 'null' to ensure it doesn't propagate. &ndash;&gt;-->
-<!--        {% assign current = null %}-->
-<!--        {% endif %}-->
-<!--        {% assign sublinks = entry.sublinks %}-->
-<!--        {% if sublinks %}-->
-<!--        <li class="nav-item"{{ current }}>-->
-<!--        <a class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>-->
-<!--        </li>-->
-<!--        {% else %}-->
-<!--        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>-->
-<!--        {% endif %}-->
-<!--        {% endfor %}-->
-<!--    </ul>-->
-<!--</nav>-->
-
-<p style="text-align: center; background-color: #313131;">
-    <a href="{{site.baseurl}}/" style="color: white">Home</a> |
-    <a href="{{site.baseurl}}/page/" style="color: white">Page2</a> |
-    <a href="{{site.baseurl}}/schedule/week_1/" style="color: white">Week 1</a> |
-    <a href="{{site.baseurl}}/schedule/week_2/" style="color: white">Week 2</a> |
-    <a href="{{site.baseurl}}/schedule/week_3/" style="color: white">Week 3</a> |
-    <a href="{{site.baseurl}}/general/" style="color: white">Misc</a>
-</p>
+<nav class="navbar navbar-expand-sm">
+    <ul class="navbar-nav">
+        {% for entry in site.data.navigation %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+        {% endfor%}
+    </ul>
+</nav>
