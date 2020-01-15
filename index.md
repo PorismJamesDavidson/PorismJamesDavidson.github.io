@@ -3,7 +3,7 @@ title: Title
 layout: default
 ---
 
-<a href="/page/">Test</a>
+[Test](/page/)
 <div id="readme"></div>
 {% include README.md %}  
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>   
