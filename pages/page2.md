@@ -5,5 +5,7 @@ permalink: /page/
 ---
 
 ## Page 2
-
+```
+{: #id .class}
+```
 123
