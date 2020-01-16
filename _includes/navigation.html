@@ -1,9 +1,26 @@
 <nav class="navbar navbar-expand-sm">
     <ul class="navbar-nav">
         {% for entry in site.data.navigation %}
-        <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-        </li>
+        {% if entry.child %}
+        <script>console.log("Child")</script>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}{{ entry.url }}"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ entry.title }}
+                </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {% for child in entry.child %}
+                <script>console.log("Child loop")</script>
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>
+                {% endfor %}
+            </div>
+            </li>
+        {% else %}
+            <script>console.log("Normal")</script>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+        {% endif %}
         {% endfor%}
     </ul>
 </nav>
