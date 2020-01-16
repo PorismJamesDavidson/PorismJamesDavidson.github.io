@@ -183,3 +183,11 @@ $dropDown: false;
     background-color: $bgHighlight;
   }
 }
+.navwidth {
+  max-width: 75vw; /* applying max-width */
+  margin: 0 auto; /* center */
+}
+
+.navbackground {
+  background-color: $bgDefault;
+}
