@@ -4,3 +4,7 @@ url: https://porismjamesdavidson.github.io/
 
 plugins:
   - jekyll-relative-links
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
