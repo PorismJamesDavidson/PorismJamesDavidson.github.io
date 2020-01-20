@@ -3,27 +3,26 @@ layout: default
 title: Home
 permalink: /page/
 ---
-`{options parse-block-html /}`
-{::options parse-block-html="true" /}
-{::options markdown="span" /}
+
 ## Page 2
 ```
 {: #id .class}
 ```
-
+{% comment %}
+Only working in Jekyll 4.0
 <details open><summary>Contents
 </summary>  
-<p>
+
 {% capture contents %}
 
 * [One](/page/#1)
 * [Two](/page/#2)
 
 {% endcapture %}
-{{ contents  | markdownify }}
-</p>
-</details>
+{{ contents  | markdownify | remove: '<p>' | remove: '</p>' }}
 
+</details>
+{% endcomment %}
 ```javascript
   $(function() {
       $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {

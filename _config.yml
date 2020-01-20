@@ -3,8 +3,6 @@ title: Title
 url: https://porismjamesdavidson.github.io/
 
 markdown: kramdown
-kramdown:
-  parse_block_html: true
 
 plugins:
   - jekyll-paginate
