@@ -3,13 +3,26 @@ layout: default
 title: Home
 permalink: /page/
 ---
-
+`{options parse-block-html /}`
+{::options parse-block-html="true" /}
+{::options markdown="span" /}
 ## Page 2
 ```
 {: #id .class}
 ```
 
+<details open><summary>Contents
+</summary>  
+<p>
+{% capture contents %}
 
+* [One](/page/#1)
+* [Two](/page/#2)
+
+{% endcapture %}
+{{ contents  | markdownify }}
+</p>
+</details>
 
 ```javascript
   $(function() {

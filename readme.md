@@ -1,3 +1,10 @@
+---
+layout: default
+title: Local install
+permalink: /install/
+
+---
+
 # To serve site locally
 
 ## Using Ruby installer
