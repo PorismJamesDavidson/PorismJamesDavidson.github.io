@@ -12,3 +12,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-relative-links
+
+exclude:
+  - .idea/
