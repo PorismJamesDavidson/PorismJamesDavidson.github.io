@@ -4,7 +4,7 @@ title: Home
 permalink: /page/
 ---
 
-## Page 2
+## Page 2 
 ```
 {: #id .class}
 ```
@@ -23,6 +23,7 @@ Only working in Jekyll 4.0
 
 </details>
 {% endcomment %}
+
 ```javascript
   $(function() {
       $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {
@@ -36,14 +37,21 @@ Only working in Jekyll 4.0
 ```
 
 ```json
-"persona": [{
-                "value": 0,
-                "label": "Lonely",
-                "data": {
-                    "needs": ["122", "71", "111", "115", "67", "36", "66", "68"],
-                    "circumstances": ["1", "191", "185", "165", "205", "210", "213", "218", "220"]
-                }
-            },
-
+{
+  "persona": [
+    {
+      "value": 0,
+      "label": "Lonely",
+      "data": {
+        "needs": [
+          "122", "71", "111", "115", "67", "36", "66", "68"
+        ],
+        "circumstances": [
+          "1", "191", "185", "165", "205", "210", "213", "218", "220"
+        ]
+      }
+    }
+  ]
+}
 ```
 123

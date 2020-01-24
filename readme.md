@@ -12,13 +12,13 @@ permalink: /install/
 [Follow instructions here](https://jekyllrb.com/docs/installation/windows/#installation-via-rubyinstaller)
 
 After install:
-`gem install jekyll -v 3.8.5` Use current version on [Github Pages](https://pages.github.com/versions/)
+_`gem install jekyll -v 3.8.5`_ Use current version on [Github Pages](https://pages.github.com/versions/)
 
-`gem install jekyll-theme-slate jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed jemoji jekyll-include-cache jekyll-relative-links wdm`
+_`gem install jekyll-theme-slate jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed jemoji jekyll-include-cache jekyll-relative-links wdm`_
 
 ### To serve to localhost
 
-`jekyll serve`
+_`jekyll serve`_
 
 [127.0.0.1:4000](http://127.0.0.1:4000/)
 
@@ -26,22 +26,22 @@ After install:
 
 ### To install
 
-`sudo apt-get update -y && sudo apt-get upgrade -y`  
+_`sudo apt-get update -y && sudo apt-get upgrade -y`_  
   
-`sudo apt-add-repository ppa:brightbox/ruby-ng`
+_`sudo apt-add-repository ppa:brightbox/ruby-ng`_
   
-`sudo apt-get update`
+_`sudo apt-get update`_
 
-`sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf zlib1g-dev`
+_`sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf zlib1g-dev`_
 
-`sudo gem update`
+_`sudo gem update`_
 
-`sudo gem install jekyll -v 3.8.5` Use current version on [Github Pages](https://pages.github.com/versions/)
+_`sudo gem install jekyll -v 3.8.5`_ Use current version on [Github Pages](https://pages.github.com/versions/)
 
-`sudo gem install jekyll-theme-slate jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed jemoji jekyll-include-cache jekyll-relative-links`
+_`sudo gem install jekyll-theme-slate jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed jemoji jekyll-include-cache jekyll-relative-links`_
 
 ### To serve to localhost
 
-`jekyll serve`
+_`jekyll serve`_
 
 [127.0.0.1:4000](http://127.0.0.1:4000/)
