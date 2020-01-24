@@ -22,7 +22,7 @@ _`jekyll serve`_
 
 [127.0.0.1:4000](http://127.0.0.1:4000/)
 
-## Using ubuntu or Linux sub-system for window ubuntu.
+## Using Ubuntu or Windows Subsystem for Linux Ubuntu.
 
 ### To install
 
