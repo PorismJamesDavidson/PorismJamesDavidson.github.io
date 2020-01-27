@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Local install
+layout: default  
+title: Local install  
 permalink: /install/
-
 ---
 
 # To serve site locally
@@ -11,14 +10,15 @@ permalink: /install/
 
 [Follow instructions here](https://jekyllrb.com/docs/installation/windows/#installation-via-rubyinstaller)
 
-After install:
-_`gem install jekyll -v 3.8.5`_ Use current version on [Github Pages](https://pages.github.com/versions/)
+After install:  
+_`sudo gem update`_
 
-_`gem install jekyll-theme-slate jekyll-paginate jekyll-sitemap jekyll-gist jekyll-feed jemoji jekyll-include-cache jekyll-relative-links wdm`_
+_`sudo gem install jekyll -v 3.8.5`_ Use current version on [Github Pages](https://pages.github.com/versions/)  
+_`sudo gem install bundler`_
 
 ### To serve to localhost
 
-_`jekyll serve`_
+_`bundle exec jekyll serve`_
 
 [127.0.0.1:4000](http://127.0.0.1:4000/)
 
@@ -37,9 +37,7 @@ _`sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf zlib1g-
 _`sudo gem update`_
 
 _`sudo gem install jekyll -v 3.8.5`_ Use current version on [Github Pages](https://pages.github.com/versions/)  
-_`sudo gem install bundle`_
-
-_`sudo bundle update --bundler`_
+_`sudo gem install bundler`_
 
 ### To serve to localhost
 
