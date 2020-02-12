@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /page/
+permalink: /pagetest/
 ---
 
 ## Page 2 

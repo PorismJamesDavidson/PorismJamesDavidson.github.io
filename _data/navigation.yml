@@ -1,7 +1,7 @@
 - title: Home
   url: /
-- title: page
-  url: /page/
+- title: Data Standard Guidance
+  url: /Guidance/
 - title: Page3/4
   child:
   - title: Install
