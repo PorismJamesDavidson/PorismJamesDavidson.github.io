@@ -15,7 +15,9 @@ This document provides guidance on using the Open Referral UK data standard for 
 It is the successor to the Local Government Association's (LGA's) comma separated values (CSV) schema developed by iStandUK and published [here](https://schemas.opendata.esd.org.uk/ServiceDirectory){:target="_blank"} in February 2017. It constitutes the official schema developed in partnership by the LGA and partners involved in the [Local Digital](https://localdigital.gov.uk/)  [OpenCommunity](https://opencommunity.org.uk/) programme.
 
 The Standard conforms to and extends the international [Open Referral](https://openreferral.org/){:target="_blank"} standard.
-
+{% comment %}
+The Standard is managed by a community of private, public and third sector organisations governed by an OpenCommunity Board. These details have yet to be determined.
+{% endcomment %}
 ## Purpose
 
 Open Referral UK defines the structure of data expected in interfaces between standards compliant software. It also gives ranges of expected values for some fields.
@@ -57,12 +59,13 @@ Service directories supporting the standard may keep their data in the structure
 Each table and field is described below.
 
 
-<div id="docs" style="width: 110%"></div>
+<div id="docs"></div>
 <script>
-    $(function() {
-      $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {
-        $( "#docs" ).html( data );
-      });
+    $(function () {
+        $.get("https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function (data) {
+            $("#docs").html(data);
+            $("#docs table").wrap('<div class="table-responsive-md"></div>');
+        });
     });
 </script>
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
