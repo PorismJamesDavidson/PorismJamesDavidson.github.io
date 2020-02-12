@@ -2,18 +2,8 @@
   url: /
 - title: Data Standard Guidance
   url: /Guidance/
-- title: Page3/4
-  child:
-  - title: Install
-    url: /install/
-  - title: Page4
-    url: /page4/
-- title: Page4/5
-  child:
-    - title: Page4
-      url: /page4/
-    - title: Page5
-      url: /page5/
-- title: Page6
-  url: /page6/
+- title: API Guidance
+  url: /API-Guidance/
+- title: About
+  url: /about/
 
