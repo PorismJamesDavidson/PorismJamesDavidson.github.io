@@ -6,9 +6,11 @@
   max-width: 90vw;
 }
 
+#main_content_wrap { background: #ffffff; border-top: 1px solid #111; border-bottom: 1px solid #111; }
+
 $bgDefault: #373737;
 $bgHighlight: #877c7b;
-$colDefault: #ecf0f1;
+$colDefault: #FFFFFF;
 $colHighlight: #f6eeee;
 $dropDown: false;
 .navbar {
