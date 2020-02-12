@@ -3,9 +3,13 @@ layout: default
 title: Open Referral UK Data Standard Guidance
 permalink: /Guidance/
 ---
-
 # Open Referral UK Data Standard Guidance
-
+{:.no_toc}
+#### Contents
+{:.no_toc}
+* TOC 
+{:toc}  
+<br>
 Version 1.0 This will be the version when it is finalised in March 2020.
 
 ## Introduction
@@ -53,7 +57,7 @@ It comprises:
 
 -   Tables, which may also be seen as classes in a data structure
 -   Table fields, which may be seen as class properties
-
+  
 Service directories supporting the standard may keep their data in the structure given or may just transform it to that structure for API requests.
 
 Each table and field is described below.
@@ -64,13 +68,12 @@ Each table and field is described below.
     $(function () {
         $.get("https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function (data) {
             $("#docs").html(data);
-            $("#docs table").wrap('<div class="table-responsive-md"></div>');
+            $("#docs table").wrap('<div class="table-responsive"></div>');
         });
     });
+    addBackToTop({
+        diameter: 42,
+        backgroundColor: 'rgb(159,159,158)',
+        textColor: '#ffffff'
+    });
 </script>
-<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  diameter: 42,
-  backgroundColor: 'rgb(159,159,158)',
-  textColor: '#ffffff'
-})</script>
