@@ -38,10 +38,11 @@ This Entity Relation Diagram shows the structure of data, distinguishing parts o
 
 [![LGA Application Profile Basic Entity Relationship Diagram](https://raw.githubusercontent.com/esd-org-uk/human-services/master/Resources/LGA_ApplicationProfileBasicEntityRelationshipDiagram.png){:class="img-fluid"}{:width="75%"}](https://raw.githubusercontent.com/esd-org-uk/human-services/master/Resources/LGA_ApplicationProfileBasicEntityRelationshipDiagram.png){:target="_blank"}    
 
+{% comment %}
 The remaining "should have", "could have" and "won't have" recommendations are shown in the following diagram. They will be introduced in future versions of the standard if there is a business case for doing so. Local implementations may also choose to implement them.
 
 [![LGA Application Profile Basic Entity Relationship Diagram](https://raw.githubusercontent.com/esd-org-uk/human-services/master/Resources/OpenCommunityApplicationProfileERD.png){:class="img-fluid"}{:width="75%"}](https://raw.githubusercontent.com/esd-org-uk/human-services/master/Resources/OpenCommunityApplicationProfileERD.png){:target="_blank"}  
-
+{% endcomment %}
 ## Data structure
 
 The OpenCommunity standard is defined [here in JSON format](https://raw.githubusercontent.com/esd-org-uk/human-services/master/SchemaGenerator/Generator/ExtendedDataPackage.json) compliant with the [Open Knowledge Foundation's tabular data package format](https://raw.githubusercontent.com/openreferral/specification/master/datapackage.json){:target="_blank"}.
@@ -56,7 +57,7 @@ Service directories supporting the standard may keep their data in the structure
 Each table and field is described below.
 
 
-<div id="docs"></div>
+<div id="docs" style="width: 110%"></div>
 <script>
     $(function() {
       $.get( "https://raw.githack.com/esd-org-uk/human-services/master/Schemas/documentation.html", function( data ) {
@@ -64,3 +65,9 @@ Each table and field is described below.
       });
     });
 </script>
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 42,
+  backgroundColor: 'rgb(159,159,158)',
+  textColor: '#ffffff'
+})</script>
