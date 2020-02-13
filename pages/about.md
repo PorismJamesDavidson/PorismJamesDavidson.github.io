@@ -11,3 +11,5 @@ Open Referral UK extends the international [Open Referral](https://openreferral.
 * _List to follow of mailing list, Slack group, Github repositories etc_
 
 Implementation of the standard is discussed in the LGA's [Local Services Open Data Project group](https://khub.net/group/local-services-open-data-project) and via [OpenCommunity](https://opencommunity.org.uk/).
+
+You can submit changes to these pages viat Github at _GitHubPagesAddress_.
